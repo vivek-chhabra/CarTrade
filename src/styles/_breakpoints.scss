@@ -1,0 +1,31 @@
+$xs: 400px;
+$sm: 480px;
+$md: 768px;
+$lg: 1025px;
+$xl: 1200px;
+
+@mixin xl {
+    @media screen and (max-width: $xl) {
+        @content;
+    }
+}
+@mixin lg {
+    @media screen and (max-width: $lg) {
+        @content;
+    }
+}
+@mixin md {
+    @media screen and (max-width: $md) {
+        @content;
+    }
+}
+@mixin sm {
+    @media screen and (max-width: $sm) {
+        @content;
+    }
+}
+@mixin xs {
+    @media screen and (max-width: $xs) {
+        @content;
+    }
+}
